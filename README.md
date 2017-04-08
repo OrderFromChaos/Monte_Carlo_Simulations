@@ -8,6 +8,6 @@ The points are generated inside a square. Inside that square is a circle, when e
 
 After many points are simulated, the program divides the inner point count by the outer point count and multiplies by 4. This is because the area equations are (given that h = square side length):
 
-a(rect) = h^2 and a(circle) = 0.25\*h^2
+a(rect) = h^2 and a(circle) = 0.25\*pi\*h^2
 
 Divide inner by outer and you get pi/4. Because of the nature of random numbers, this simulation will not "find" pi so much as converge to pi. The values are stored and graphed to demonstrate this concept.
